@@ -1,76 +1,52 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react' // Clean modern icon for external links
-import img1 from "../assets/themescart.png"
-import img2 from "../assets/kindora9.png"
-import img3 from "../assets/radinik.png"
-import img4 from "../assets/travellingtaco.png"
-import img5 from "../assets/astrogazing.png"
-import img6 from "../assets/krish.PNG"
+import img1 from "../assets/resumeai.PNG"
+import img2 from "../assets/astro.PNG"
+import img3 from "../assets/chatbot.PNG"
 
-const WordpressProject = () => {
+
+const Project = () => {
     const projects = [
         {
             id: 1,
             image: img1,
-            title: 'ThemesCart - E-Commerce',
-            desc: 'Developed and customized WordPress website layouts. Implemented WooCommerce store functionality. Created responsive pages across all devices. Enhanced content management experience.',
-            tech: ['WordPress', 'WooCommerce', 'Elementor'],
-            link: 'https://themescart.com/' 
+            title: 'AI Resume Analyser',
+            desc: 'An AI-powered recruitment tool that analyses resumes against job-specific questions and evaluates candidates based on their skills, experience, and responses. Built with a recruiter-focused workflow for candidate analysis, scoring, and shortlisting.',
+            tech: ['React.js', 'Next.js', 'FastAPI', 'MongoDB', 'Vercel', 'Render'],
+            link: 'https://ai-resume-analyser-brown-sigma.vercel.app/analytics' // ADDED: Your live project links go here
         },
         {
             id: 2,
             image: img2,
-            title: 'Kindora9 - Education',
-            desc: 'Developed and customized the Shopify storefront experience. Implemented responsive and user-friendly page layouts. Built custom sections to improve product presentation. Maintained performance, usability, and mobile optimization.',
-            tech: ['WordPress', 'PHP', 'Elementor'],
-            link: 'https://kindora9.in/'
+            title: 'AI AstroEvents - Event Planner',
+            desc: 'An astronomy event planning and observation tool that identifies planets, celestial objects, and astronomical events available for a selected date, time, and location. It combines astronomical data with observation conditions to help users plan their stargazing sessions.',
+            tech: ['React.js', 'Next.js', 'FastAPI', 'MongoDB', 'Vercel', 'Render'],
+            link: ''
         },
         {
             id: 3,
             image: img3,
-            title: 'Radinik - Machine Manufactering',
-            desc: 'Developed professional business website pages. Implemented responsive layouts and design elements. Created custom service and product sections. Enhanced user experience and accessibility.',
-            tech: ['WordPress', 'Elementor', 'HTML','CSS'],
-            link: 'https://radinik.com/'
+            title: 'AI Chatbot',
+            desc: 'A ChatGPT-style AI chatbot that allows users to interact with an AI assistant through a conversational interface. Built with a modern frontend and FastAPI backend, integrating AI APIs to process user queries and generate contextual responses.',
+            tech: ['React.js', 'Next.js', 'FastAPI', 'MongoDB', 'Vercel', 'Render'],
+            link: 'https://ai-chatbot-one-orpin.vercel.app/'
         },
-        {
-            id: 4,
-            image: img4,
-            title: 'TravellingTaco - Travel',
-            desc: 'Developed responsive travel-focused web pages. Customized WordPress layouts and content sections. Implemented modern UI and navigation features. Enhanced overall user experience.',
-            tech: ['WordPress', 'Elementor', 'HTML', 'CSS'],
-            link: 'https://travellingtaco.com/'
-        },
-        {
-            id: 5,
-            image: img5,
-            title: 'AstrogazingHub - Events',
-            desc: 'Built responsive WordPress website interfaces. Developed custom pages and content layouts. Implemented user-friendly navigation systems. Optimized website performance and accessibility.',
-            tech: ['WordPress', 'PHP', 'Elementor'],
-            link: 'https://astrogazinghub.in/'
-        },
-        {
-            id: 6,
-            image: img6,
-            title: 'Krishisdigital - Digital Marketing',
-            desc: 'Built responsive service-based website interfaces. Developed custom pages and content structures. Implemented modern UI and navigation systems. Optimized website performance and usability.',
-            tech: ['WordPress', 'PHP', 'Elementor'],
-            link: 'https://krishisdigital.com/'
-        },
+        
     ]
 
     return (
-        <section className='max-w-6xl mx-auto flex justify-between items-center py-20' id="wordpress-projects">
+        <section className='max-w-6xl mx-auto flex justify-between items-center py-20' id="projects">
             <div className='container mx-auto max-w-7xl'>
                 
+                {/* Section Header */}
                 <div className='text-center mb-16'>
-                    <h2 className='text-3xl md:text-5xl font-extrabold text-white tracking-wide'>
-                        WordPress Projects
+                    <h2 className='text-2xl md:text-5xl font-extrabold text-white tracking-wide'>
+                       AI Tools Development
                     </h2>
                     <div className='w-28 h-1 bg-primary mx-auto mt-3 rounded-2xl shadow-[0_0_8px_#06a2c2]'></div>
                 </div>
 
-              
+                {/* Grid Container */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4'>
                     {projects.map((project) => (
                         <div 
@@ -113,7 +89,7 @@ const WordpressProject = () => {
                                         ))}
                                     </div>
 
-                                    {/* Live View Link Button */}
+                                    {/* ADDED: Live View Link Element below the technology tags */}
                                     <div className='mt-6 pt-4 border-t border-gray-800/60 flex justify-between items-center'>
                                         <a 
                                             href={project.link}
@@ -137,4 +113,4 @@ const WordpressProject = () => {
     )
 }
 
-export default WordpressProject;
+export default Project;

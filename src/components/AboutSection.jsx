@@ -33,12 +33,25 @@ export const About = () => {
                 <h2 className='text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight'>
                     More <span className='text-primary'>About</span> Me
                 </h2>
-                <p className='text-gray-400 text-base lg:text-lg mb-4 leading-relaxed'>
-                    I'm a Frontend Developer with 3+ years of experience building Shopify and WordPress websites for businesses and ecommerce brands. I enjoy creating responsive, user-friendly interfaces that deliver a seamless experience across all devices.
-                </p>
-                <p className='text-gray-400 text-base lg:text-lg leading-relaxed'>
-                   Over the years, I've worked on client projects ranging from custom storefronts to complete website solutions. Currently, I'm expanding my expertise in React.js and modern frontend development to build scalable and high-performance web applications.
-                </p>
+                {/* <p className='text-gray-400 text-base lg:text-lg mb-4 leading-relaxed'>
+                    My journey into web development started with managing websites and grew into a passion for building them. With 6+ years of experience across web administration, development, and management, I have 3+ years of hands-on experience with Shopify and WordPress, creating responsive websites and eCommerce experiences.
+
+More recently, I’ve been exploring AI application development, building practical tools by combining modern web technologies, backend APIs, and AI services.
+
+I enjoy learning, building, and turning ideas into something real.
+                </p> */}
+
+
+                
+                <div className="text-gray-400 text-base lg:text-lg leading-relaxed text-justify">
+    <p className="mb-4">
+        My journey into web development started with managing websites and grew into a passion for building them. With 6+ years of experience across web administration, development, and management, I have 3+ years of hands-on experience with Shopify and WordPress, creating responsive websites and eCommerce experiences.
+    </p>
+
+    <p>
+        More recently, I’ve been exploring AI application development and building practical tools using modern web technologies, backend APIs, and AI services. I’m also expanding my expertise in React.js and modern frontend development, with a focus on creating useful, scalable, and high-performance web applications.
+    </p>
+</div>
             </div>
            
         </div>

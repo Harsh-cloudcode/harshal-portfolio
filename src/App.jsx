@@ -11,6 +11,9 @@ import Skills from './components/Skills'
 import  ShopifyProject  from './components/ShopifyProject';
 import  Contacts  from './components/Contacts';
 import WordpressProject from './components/WordpressProject';
+import Aitools from './components/Aitools';
+
+
 
 const App = () => {
   useEffect(() => {
@@ -25,9 +28,11 @@ const App = () => {
       <Header />
       <HeroSection />
       <About />
-      <Skills />
+      <Aitools />
       <ShopifyProject />
       <WordpressProject />
+      {/* <Great /> */}
+      <Skills />
       
       <Education />
       <Contacts />

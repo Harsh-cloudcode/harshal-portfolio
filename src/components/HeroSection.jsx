@@ -37,11 +37,9 @@ export const HeroSection = () => {
                         </h1>
                     </div>
                     
-                    <p className="text-gray-300 mt-6 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                        Frontend Developer specializing in Shopify, WordPress, and modern web technologies.
-                        Creating responsive, high-performance digital experiences.
-                        Focused on building modern React.js applications and scalable user interfaces.
-                    </p>
+                    <p className="text-gray-300 mt-6 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed text-justify">
+    Curious about how the web works and always looking for what I can build next. From Shopify and WordPress eCommerce websites to React.js experiences, I enjoy experimenting with new technologies, including AI-powered tools, and turning ideas into things people can actually use.
+</p>
                      
                     <div className='flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-8 w-full sm:w-auto'>
                         
