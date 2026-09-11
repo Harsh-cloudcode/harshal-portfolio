@@ -12,6 +12,7 @@ import  ShopifyProject  from './components/ShopifyProject';
 import  Contacts  from './components/Contacts';
 import WordpressProject from './components/WordpressProject';
 import Aitools from './components/Aitools';
+import Rating from './components/Rating';
 
 
 
@@ -33,7 +34,7 @@ const App = () => {
       <WordpressProject />
       {/* <Great /> */}
       <Skills />
-      
+      <Rating />
       <Education />
       <Contacts />
   

@@ -9,8 +9,18 @@ import img6 from "../assets/krish.PNG"
 
 const WordpressProject = () => {
     const projects = [
+
         {
             id: 1,
+            image: img6,
+            title: 'Krishisdigital - Digital Marketing',
+            desc: 'Built responsive service-based website interfaces. Developed custom pages and content structures. Implemented modern UI and navigation systems. Optimized website performance and usability.',
+            tech: ['WordPress', 'PHP', 'Elementor'],
+            link: 'https://krishisdigital.com/'
+        },
+
+        {
+            id: 2,
             image: img1,
             title: 'ThemesCart - E-Commerce',
             desc: 'Developed and customized WordPress website layouts. Implemented WooCommerce store functionality. Created responsive pages across all devices. Enhanced content management experience.',
@@ -18,7 +28,7 @@ const WordpressProject = () => {
             link: 'https://themescart.com/' 
         },
         {
-            id: 2,
+            id: 3,
             image: img2,
             title: 'Kindora9 - Education',
             desc: 'Developed and customized the Shopify storefront experience. Implemented responsive and user-friendly page layouts. Built custom sections to improve product presentation. Maintained performance, usability, and mobile optimization.',
@@ -26,7 +36,7 @@ const WordpressProject = () => {
             link: 'https://kindora9.in/'
         },
         {
-            id: 3,
+            id: 4,
             image: img3,
             title: 'Radinik - Machine Manufactering',
             desc: 'Developed professional business website pages. Implemented responsive layouts and design elements. Created custom service and product sections. Enhanced user experience and accessibility.',
@@ -34,7 +44,7 @@ const WordpressProject = () => {
             link: 'https://radinik.com/'
         },
         {
-            id: 4,
+            id: 5,
             image: img4,
             title: 'TravellingTaco - Travel',
             desc: 'Developed responsive travel-focused web pages. Customized WordPress layouts and content sections. Implemented modern UI and navigation features. Enhanced overall user experience.',
@@ -42,21 +52,14 @@ const WordpressProject = () => {
             link: 'https://travellingtaco.com/'
         },
         {
-            id: 5,
+            id: 6,
             image: img5,
             title: 'AstrogazingHub - Events',
             desc: 'Built responsive WordPress website interfaces. Developed custom pages and content layouts. Implemented user-friendly navigation systems. Optimized website performance and accessibility.',
             tech: ['WordPress', 'PHP', 'Elementor'],
             link: 'https://astrogazinghub.in/'
         },
-        {
-            id: 6,
-            image: img6,
-            title: 'Krishisdigital - Digital Marketing',
-            desc: 'Built responsive service-based website interfaces. Developed custom pages and content structures. Implemented modern UI and navigation systems. Optimized website performance and usability.',
-            tech: ['WordPress', 'PHP', 'Elementor'],
-            link: 'https://krishisdigital.com/'
-        },
+        
     ]
 
     return (
