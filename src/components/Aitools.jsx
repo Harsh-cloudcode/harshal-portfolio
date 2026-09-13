@@ -21,7 +21,7 @@ const Project = () => {
             title: 'AI AstroEvents - Event Planner',
             desc: 'An astronomy event planning and observation tool that identifies planets, celestial objects, and astronomical events available for a selected date, time, and location. It combines astronomical data with observation conditions to help users plan their stargazing sessions.',
             tech: ['React.js', 'Next.js', 'FastAPI', 'MongoDB', 'Vercel', 'Render'],
-            link: ''
+            link: 'https://ai-astro-event.vercel.app/'
         },
         {
             id: 3,
